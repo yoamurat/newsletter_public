@@ -40,6 +40,7 @@ jobs:
       - name: Publish to GitHub Pages
         run: |
           mkdir -p docs/archive
+          rm -f docs/index.html
           cp output/*_newsletter.html docs/index.html
           cp output/*_newsletter.html docs/archive/$(date +%Y-%m-%d).html
           git config user.name "github-actions"
