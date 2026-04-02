@@ -1,19 +1,4 @@
-      - name: Publish to GitHub Pages
-        run: |
-          mkdir -p docs/archive
-          ls output/
-          NEWSLETTER=$(ls output/*_newsletter.html | head -1)
-          echo "Publishing: $NEWSLETTER"
-          cp "$NEWSLETTER" docs/index.html
-          cp "$NEWSLETTER" docs/archive/$(date +%Y-%m-%d).html
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add docs/
-          git commit -m "Newsletter $(date +%Y-%m-%d)" || true
-          git push || true
-The ls output/ line will print exactly what files are in the output folder so we can see what's actually there. Commit and re-run — paste what the ls output/ line shows in the logs.will it work? as it costs 60 cents each time, I would like to avoid trail and error too many times10:17 AMFair point. Let's test the publish step without calling Claude at all.
-In your workflow file, temporarily replace the entire content with just this — it skips Python completely and just tests the file copying:
-yamlname: Energy Intelligence Weekly Newsletter
+name: Energy Intelligence Weekly Newsletter
 
 on:
   workflow_dispatch:
