@@ -1,42 +1,3 @@
-name: Energy Intelligence Weekly Newsletter
-
-on:
-  schedule:
-    - cron: '0 6 * * 1'
-  workflow_dispatch:
-    inputs:
-      editor_notes:
-        description: 'Optional editorial notes for this edition'
-        required: false
-        default: ''
-
-permissions:
-  contents: write
-
-jobs:
-  send-newsletter:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install anthropic python-dotenv json-repair
-
-      - name: Generate newsletter
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          COMPANY_NAME:      ${{ vars.COMPANY_NAME }}
-          MAX_COMPANIES:     ${{ vars.MAX_COMPANIES }}
-          EDITOR_NOTES:      ${{ github.event.inputs.editor_notes || '' }}
-        run: python send_newsletter.py
-
       - name: Publish to GitHub Pages
         run: |
           mkdir -p docs/archive
@@ -50,10 +11,37 @@ jobs:
           git add docs/
           git commit -m "Newsletter $(date +%Y-%m-%d)" || true
           git push || true
+The ls output/ line will print exactly what files are in the output folder so we can see what's actually there. Commit and re-run — paste what the ls output/ line shows in the logs.will it work? as it costs 60 cents each time, I would like to avoid trail and error too many times10:17 AMFair point. Let's test the publish step without calling Claude at all.
+In your workflow file, temporarily replace the entire content with just this — it skips Python completely and just tests the file copying:
+yamlname: Energy Intelligence Weekly Newsletter
 
-      - name: Archive output
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: newsletter-${{ github.run_id }}
-          path: output/
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  send-newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Publish to GitHub Pages
+        run: |
+          mkdir -p docs/archive
+          ls output/
+          NEWSLETTER=$(ls output/*_newsletter.html 2>/dev/null | head -1)
+          echo "Found: $NEWSLETTER"
+          if [ -z "$NEWSLETTER" ]; then
+            echo "No newsletter file found in output/"
+            exit 1
+          fi
+          cp "$NEWSLETTER" docs/index.html
+          cp "$NEWSLETTER" docs/archive/$(date +%Y-%m-%d).html
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs/
+          git commit -m "Newsletter $(date +%Y-%m-%d)" || true
+          git push || true
