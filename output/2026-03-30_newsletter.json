@@ -1,0 +1,238 @@
+{
+  "weekOf": "30 March 2026",
+  "headline": "Middle East Crisis Drives Oil Above $111, While Europe Advances Hydrogen",
+  "executiveSummary": "Oil prices surged above $111/barrel amid Middle East conflict disrupting 3+ million tonnes/day of refining capacity and forcing refineries across the Gulf to shut down. European Commission approved France's €797M hydrogen scheme for 1GW electrolyser capacity, while a massive 34-million-tonne natural hydrogen reserve was discovered in France's Lorraine basin. BP's $1B Gelsenkirchen refinery sale to Klesch Group exemplifies major portfolio restructuring across the downstream sector.",
+  "stats": [
+    {
+      "value": "$111.10",
+      "label": "Brent crude $/barrel",
+      "theme": "og",
+      "context": "Up $37.69 versus March 2025 due to Middle East supply disruptions"
+    },
+    {
+      "value": "1 GW",
+      "label": "French hydrogen capacity",
+      "theme": "h2",
+      "context": "EU-approved scheme with €797M for first 200MW tender round"
+    },
+    {
+      "value": "34 Mt",
+      "label": "Natural hydrogen reserve",
+      "theme": "h2",
+      "context": "World's largest discovery in France's Lorraine basin at 1,100 TWh potential"
+    }
+  ],
+  "ogNews": [
+    {
+      "subcat": "Refining",
+      "headline": "BP Sells 265,000bpd Gelsenkirchen Refinery to Klesch Group",
+      "body": "BP agreed to divest its integrated Gelsenkirchen refinery complex to independent European refiner Klesch Group, processing 12 million tonnes/year crude oil. The deal includes Bottrop tank farm, DHC Solvent Chemie subsidiary, and related logistics assets, employing 1,800 people. Transaction expected to close H2 2026 pending regulatory approvals.",
+      "consultancyAngle": "Klesch Group will require comprehensive technical due diligence on the integrated refining and petrochemical operations, plus brownfield FEED studies for operational optimisation",
+      "serviceTag": "Due Diligence",
+      "source": "BP press release · March 19, 2026"
+    },
+    {
+      "subcat": "Upstream",
+      "headline": "Middle East Crisis Shuts 3+ Million bpd Gulf Refining Capacity",
+      "body": "IEA reports over 3 million bpd of refining capacity shut due to attacks and export outlet disruption. Gulf producers exported 3.3 million bpd refined products and 1.5 million bpd LPG in 2025. Strait of Hormuz closure forcing export-oriented refineries to cut runs or shut completely.",
+      "consultancyAngle": "Emergency process integrity assessments needed for restart operations, plus technical review of alternative feedstock routing and storage optimisation",
+      "serviceTag": "Tech Review",
+      "source": "IEA Oil Market Report · March 2026"
+    },
+    {
+      "subcat": "Petrochemicals",
+      "headline": "Iran Conflict Chokes Petrochemical Supply, Plastic Prices Soaring",
+      "body": "Plunging LPG and naphtha supplies forcing petrochemical plants to curb polymer production. Iran war disrupts traditional Middle East petrochemical export flows. Plants require alternative feedstock sourcing and process modifications to maintain operations.",
+      "consultancyAngle": "Feedstock flexibility studies and process modification FEED work for petrochemical plants adapting to supply chain disruptions",
+      "serviceTag": "FEED",
+      "source": "Hydrocarbon Processing · March 27, 2026"
+    }
+  ],
+  "neNews": [
+    {
+      "subcat": "Green H2",
+      "headline": "EU Approves France's €797M Hydrogen Scheme for 1GW Capacity",
+      "body": "European Commission approved French state aid scheme supporting 1GW electrolyser capacity through three competitive tender rounds. First tender covers 200MW with €797M budget. 15-year contracts for renewable and low-carbon hydrogen production for industrial use only.",
+      "consultancyAngle": "Pre-FEED and FEED opportunities for electrolyser installations, plus feasibility studies for industrial hydrogen integration projects",
+      "serviceTag": "Feasibility",
+      "source": "European Commission · March 25, 2026"
+    },
+    {
+      "subcat": "CO2 Capture",
+      "headline": "California's First CCS Project Targets Spring 2026 CO2 Injection",
+      "body": "California Resources Corporation's Elk Hills facility completed construction and commissioning carbon capture equipment. Targeting first CO2 injection into CTV I-26R storage reservoir spring 2026. Expected to become California's first operational CCS development with $12-20M 2026 investment.",
+      "consultancyAngle": "Technical review and commissioning support for CCS injection systems, plus HAZOP studies for CO2 handling and storage operations",
+      "serviceTag": "Tech Review",
+      "source": "P&GJ Magazine · March 2026"
+    },
+    {
+      "subcat": "CO2 Transport",
+      "headline": "Fluxys Advances Dedicated CO2 Pipeline Network in Antwerp",
+      "body": "Fluxys c-grid Antwerp developing dedicated CO2 transport infrastructure in Port of Antwerp. Part of broader European cross-border CO2 transport and storage capacity expansion. Critical enabler for industrial decarbonisation projects.",
+      "consultancyAngle": "CO2 conditioning and pipeline design studies, plus conceptual engineering for industrial CO2 collection and transport systems",
+      "serviceTag": "Conceptual",
+      "source": "Carbon Herald · March 25, 2026"
+    }
+  ],
+  "franceNews": [
+    {
+      "subcat": "Hydrogen",
+      "headline": "World's Largest Natural Hydrogen Reserve Discovered in Lorraine",
+      "body": "La Française de l'Energie announced 34 million tonnes natural hydrogen reserve in former Lorraine coal basin, equivalent to 1,100 TWh energy. Measured 15% concentration at 1,093m depth, estimated 98% at 3,000m. Could extend across borders into Belgium, Luxembourg, Germany.",
+      "consultancyAngle": "Feasibility studies for natural hydrogen extraction and purification processes, plus economic evaluation of underground hydrogen recovery operations",
+      "serviceTag": "Feasibility",
+      "source": "Daily Galaxy · March 27, 2026"
+    },
+    {
+      "subcat": "Hydrogen",
+      "headline": "Vedra Hydrogen's Stimulated Natural Hydrogen Project Near Paris",
+      "body": "Demonstration project 40km from Paris in final regulatory approval stage. Vedra method converts mature oil reservoirs into hydrogen generators through low-temperature oxidation. Claims delivery at one-third cost of flagship electrolyser projects like Shell Rheinland targeting €3/kg.",
+      "consultancyAngle": "Technical due diligence on novel hydrogen generation process, reservoir engineering studies, and process safety assessments",
+      "serviceTag": "Due Diligence",
+      "source": "GeoExpro Magazine · January 22, 2026"
+    },
+    {
+      "subcat": "Policy",
+      "headline": "France Targets 4.5GW Electrolyser Capacity by 2030",
+      "body": "French government scheme contributes to achieving 4.5GW electrolyser capacity by 2030, expanding to 8GW by 2035. Expects up to 1,100 kilotons CO2 avoided annually. Part of REPowerEU Plan to reduce Russian fossil fuel dependence.",
+      "consultancyAngle": "Pre-FEED studies for large-scale electrolyser installations and industrial hydrogen integration assessments across French industrial clusters",
+      "serviceTag": "Pre-FEED",
+      "source": "EU Reporter · March 25, 2026"
+    }
+  ],
+  "policyRadar": [
+    {
+      "region": "EU",
+      "headline": "IEA Emergency Release: 400MB Oil from Strategic Reserves",
+      "body": "IEA Member countries unanimously agreed March 11 to release 400 million barrels from emergency reserves to address Middle East supply disruptions. Global observed oil stocks at 8,210 million barrels in January, highest since February 2021.",
+      "impact": "Creates opportunities for technical review mandates on alternative supply chain routing and emergency storage optimisation projects",
+      "source": "IEA Oil Market Report · March 2026"
+    },
+    {
+      "region": "France",
+      "headline": "EU Approves French Low-Carbon Hydrogen Support Framework",
+      "body": "Commission approved scheme including nuclear-powered hydrogen production alongside renewables. France successfully negotiated inclusion of low-carbon electricity beyond RFNBO rules. Contracts for 15-year terms with fixed premiums.",
+      "impact": "Expands market for hydrogen feasibility studies and technical due diligence as nuclear-hydrogen projects become eligible for support",
+      "source": "H2 View · March 30, 2026"
+    },
+    {
+      "region": "Global",
+      "headline": "CCS Transitions from Demonstration to Commercial Deployment",
+      "body": "2026 positioned as pivotal year for CCUS scaling from pilots to commercial deployment. Over 600 projects in development pipeline with approximately 15% year-on-year increase in activity. Investment tripled to $6.4 billion in 2024.",
+      "impact": "Significant increase in FEED engineering and technical due diligence opportunities for commercial-scale CCS projects moving to construction",
+      "source": "Carbon Herald · January 27, 2026"
+    }
+  ],
+  "bdTargets": [
+    {
+      "name": "Klesch Group",
+      "market": "O&G",
+      "country": "Germany",
+      "projectPhase": "Due Diligence",
+      "why": "Independent refiner acquiring BP's 265,000bpd Gelsenkirchen complex for undisclosed sum. Klesch focuses exclusively on refining with track record of acquiring Shell and Equinor assets. Transaction closing H2 2026.",
+      "entryPoint": "Technical due diligence on integrated refining and petrochemical operations, process integrity assessments",
+      "interestLevel": "High",
+      "projectType": "Asset acquisition"
+    },
+    {
+      "name": "California Resources Corporation",
+      "market": "CO2",
+      "country": "USA",
+      "projectPhase": "Tech Review",
+      "why": "Completed construction at Elk Hills CCS facility, targeting first CO2 injection spring 2026. Investing $12-20M in carbon management projects in 2026 across Carbon TerraVault platform.",
+      "entryPoint": "Commissioning support and technical review services for CO2 injection and storage operations",
+      "interestLevel": "High",
+      "projectType": "FEED launch"
+    },
+    {
+      "name": "Vedra Hydrogen",
+      "market": "Hydrogen",
+      "country": "France",
+      "projectPhase": "Feasibility",
+      "why": "Demonstration project 40km from Paris in final regulatory approval stage. Novel stimulated natural hydrogen technology converting oil reservoirs to hydrogen generators. Claims one-third cost versus electrolyser projects.",
+      "entryPoint": "Technical due diligence on innovative hydrogen generation process and reservoir engineering studies",
+      "interestLevel": "Medium",
+      "projectType": "Grant awarded"
+    },
+    {
+      "name": "La Française de l'Energie",
+      "market": "Hydrogen",
+      "country": "France",
+      "projectPhase": "Feasibility",
+      "why": "Discovered world's largest natural hydrogen reserve (34 million tonnes) in Lorraine basin. Planning additional measurement campaigns to assess extraction viability. Partnership with University of Lorraine and CNRS.",
+      "entryPoint": "Feasibility studies for natural hydrogen extraction and purification process design",
+      "interestLevel": "High",
+      "projectType": "Feasibility commissioned"
+    },
+    {
+      "name": "Covestro",
+      "market": "Circularity",
+      "country": "Germany",
+      "projectPhase": "Pre-FEED",
+      "why": "Partnering with Fraunhofer to build smart pyrolysis pilot plant processing 2 kilotons foam waste annually by 2028. Recovering high-purity aniline from polyurethane foam for circular economy.",
+      "entryPoint": "Process engineering for smart pyrolysis reactor design and aniline recovery systems",
+      "interestLevel": "Medium",
+      "projectType": "FEED launch"
+    },
+    {
+      "name": "CSIR-IICT",
+      "market": "Circularity",
+      "country": "India",
+      "projectPhase": "Conceptual",
+      "why": "Developed catalytic pyrolysis process converting multilayer plastic waste into fuel, chemicals, and hydrogen. Technology breakthrough for previously non-recyclable FMCG wrappers announced March 2026.",
+      "entryPoint": "Process scale-up studies and commercial plant conceptual design for plastic-to-chemicals technology",
+      "interestLevel": "Medium",
+      "projectType": "Funding round"
+    },
+    {
+      "name": "Fluxys c-grid Antwerp",
+      "market": "CO2",
+      "country": "Belgium",
+      "projectPhase": "Conceptual",
+      "why": "Advancing dedicated CO2 transport network development in Port of Antwerp. Critical infrastructure for European cross-border CO2 storage initiatives. Part of broader CCS value chain development.",
+      "entryPoint": "CO2 pipeline network design and industrial collection system engineering",
+      "interestLevel": "High",
+      "projectType": "FEED launch"
+    },
+    {
+      "name": "Yara Sluiskil",
+      "market": "CO2",
+      "country": "Netherlands",
+      "projectPhase": "FEED",
+      "why": "CCS project will capture 800,000 tonnes CO2 annually from ammonia/fertilizer plant starting 2026. Northern Lights will transport for permanent storage beneath Norwegian seabed over 15 years.",
+      "entryPoint": "Carbon capture system integration and CO2 conditioning process engineering",
+      "interestLevel": "High",
+      "projectType": "FEED launch"
+    },
+    {
+      "name": "Alternium",
+      "market": "Hydrogen",
+      "country": "USA",
+      "projectPhase": "Pre-FEED",
+      "why": "Selected Kiewit for pre-FEED work on new hydrogen production facility. Chemical Engineering magazine reported this as significant hydrogen project development in March 2026.",
+      "entryPoint": "Independent technical review of hydrogen production facility pre-FEED deliverables",
+      "interestLevel": "Medium",
+      "projectType": "FEED launch"
+    }
+  ],
+  "tendersToWatch": [
+    {
+      "title": "French Hydrogen Electrolyser Tender - 200MW Phase 1",
+      "body": "First competitive tender round under EU-approved €797M scheme for 200MW electrolyser capacity. 15-year fixed premium contracts for renewable and low-carbon hydrogen production.",
+      "deadline": "Expected Q2 2026 tender launch",
+      "source": "EU State Aid approval documentation"
+    },
+    {
+      "title": "Germany Carbon Contract for Difference CCS Auction",
+      "body": "€6 billion CCS support auction including (m)ethanol, steel and cement sectors. Part of revised Carbon Dioxide Storage and Transport Act enabling commercial-scale CCS.",
+      "deadline": "2026 tender launch announced",
+      "source": "ING Think analysis"
+    },
+    {
+      "title": "ODNR Division of Oil & Gas - Ashtabula 16F Environmental Project",
+      "body": "Federal project for well remediation covering 8 wells. Environmental services opportunity for oil and gas sector asset rehabilitation.",
+      "deadline": "March 26, 2026",
+      "source": "TendersGo USA government listings"
+    }
+  ]
+}
